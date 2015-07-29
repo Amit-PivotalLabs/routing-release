@@ -4,7 +4,7 @@ name: haproxy
 description: "The HAProxy server can be used to terminate SSL in front of the Routers. Each HAProxy instance should point to multiple Routers."
 
 packages:
-- common
+- routing-common
 - haproxy
 
 templates:

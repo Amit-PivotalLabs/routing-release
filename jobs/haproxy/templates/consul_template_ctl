@@ -12,7 +12,7 @@ PIDFILE=$RUN_DIR/pid
 CMD=/var/vcap/packages/consul/bin/consul-template
 HAPROXY=/var/vcap/jobs/haproxy/bin/haproxy_ctl
 
-source /var/vcap/packages/common/utils.sh
+source /var/vcap/packages/routing-common/utils.sh
 
 case "$1" in
   start)
